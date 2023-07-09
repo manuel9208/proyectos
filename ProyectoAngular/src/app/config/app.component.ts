@@ -1,11 +1,11 @@
 import { Component,OnInit } from '@angular/core';
-import { ProductosServicios } from './app.service';
-import { productos } from './app.productos'; 
+import { ProductosServicios } from '../services/app.service';
+import { productos } from '../models/app.productos'; 
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html', 
-  styleUrls: ['./app.component.css']
+  templateUrl: '../components/app.component.html', 
+  styleUrls: ['../components/app.component.css']
 })
 export class AppComponent {
   selectedProduct:any;
