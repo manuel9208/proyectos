@@ -1,8 +1,0 @@
-{
-    "/productos":{      
-        "target": "http://apiproductos.com",
-        "secure": false,
-        "logLevel":"debug",
-        "changeOrigin":true
-    }
-}
